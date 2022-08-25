@@ -1,0 +1,235 @@
+@media (max-width: 500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    header{
+        display: block;
+        padding: 0px 50px;
+        margin-top: 150px;
+        text-align: center;
+    }
+    .beginning img{
+        width: 160px;
+        padding-bottom: 70px;
+    }
+    .beginning h1{
+        font-size: 40px;
+        color: hsl(210, 10%, 33%);
+        padding-bottom: 20px;
+    }
+    .beginning p{
+        color: hsl(201, 11%, 66%);
+        font-size: 18px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .ios{
+        padding: 20px 30px;
+        font-size: large;
+        font-family: 'Bai Jamjuree', sans-serif;
+        color: white;
+        width: 23rem;
+        border: 0;
+        border-radius: 70px;
+        background-color: hsl(171, 66%, 44%);
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+    }
+    .mac{
+        padding: 20px 30px;
+        font-size: large;
+        font-family: 'Bai Jamjuree', sans-serif;
+        color: white;
+        width: 23rem;
+        border: 0;
+        border-radius: 70px;
+        background-color: hsl(233, 100%, 69%);
+        padding-bottom: 20px;
+        /* box-shadow: 0px 5px 5px 5px hsl(233, 100%, 69%); */
+    }
+    .pg-1{
+        display: block;
+        text-align: center;
+        padding: 0px 70px;
+        margin-top: 150px;
+    }
+    .pg-1 h3{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+        padding-bottom: 20px;
+    }
+    .pg-1 p{
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        padding-bottom: 20px;
+    }
+    .pg-2{
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 90px;
+    }
+    .pg-2 div img{
+        width: 480px;
+        padding: 0px 30px;
+    }
+    .pg-2-details div{
+        display: block;
+        margin-top: 48px;
+        padding: 0px 70px;
+    }
+    .pg-2-details div h3{
+        font-size: 25px;
+        color: hsl(210, 10%, 33%);
+        padding-bottom: 10px;
+    }
+    .pg-2-details div p{
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        padding-bottom: 0px;
+    }
+    .second-section{
+        display: block;
+        text-align: center;
+        margin-top: 55px;
+        padding: 0px 70px;
+    }
+    .pg-3 h3{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+    }
+    .pg-3 p{
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        padding-bottom: 50px;
+    }
+    .pg-3-image{
+        margin-bottom: 70px;
+    }
+    .pg-3-image img{
+        width: 380px;
+    }
+    .pg-4 h3{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+    }
+    .pg-4 p{
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+    }
+    .third-section{
+        display: block;
+        text-align: center;
+        padding: 0px 70px;
+        margin-top: 90px;
+        gap: 90px;
+    }
+    .pg-5 img{
+        margin-bottom: 40px;
+    }
+    .pg-5 h4{
+        font-size: 25px;
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 20px;
+    }
+    .pg-5 p{
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 60px;
+    }
+    .pg-6 img{
+        margin-bottom: 40px;
+    }
+    .pg-6 h4{
+        font-size: 25px;
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 20px;
+    }
+    .pg-6 p{
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 60px;
+    }
+    .pg-7 img{
+        margin-bottom: 40px;
+    }
+    .pg-7 h4{
+        font-size: 25px;
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 20px;
+    }
+    .pg-7 p{
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+    }
+    .pg-8{
+        display: block;
+        justify-content: center;
+        padding: 0px 170px;
+        margin-top: 150px;
+    }
+    .pg-8 img{
+        padding-bottom: 50px;
+    }
+    .fifth-section{
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+        padding: 0px 70px;
+    }
+    .pg-9 h2{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+        padding-bottom: 20px;
+    }
+    .pg-9 p{
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        padding-bottom: 50px;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+        background-color: hsl(210, 17%, 98%);
+        padding: 50px 50px;
+        height: 650px;
+    }
+    .foot-1 img{
+        width: 70px;
+        margin-top: 15px;
+    }
+    .foot-2{
+        display: block;
+        margin-top: 50px;
+    }
+    .foot-2 div{
+        display: block;
+        color: hsl(210, 10%, 33%);
+    }
+    .foot-2 div p{
+        padding-bottom: 40px;
+        font-size: 22px;
+    }
+    .foot-3{
+        display: flex;
+        margin-top: 25px;
+        gap: 50px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
+    .foot-3 img{
+        width: 30px;
+        height: 30px;
+        
+    }
+}
